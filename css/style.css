@@ -1,0 +1,114 @@
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #17172e;
+}
+
+.navbar-brand {
+    letter-spacing: 2px;
+}
+
+.text-purple {
+    color: #7533F9;
+}
+
+.btn-purple {
+    background-color: #7533F9;
+    color: white;
+    border: none;
+}
+
+.btn-purple:hover {
+    background-color: #5920cc;
+    color: white;
+}
+
+.hero {
+    background-color: #f8f7ff;
+}
+
+.profile-icon {
+    width: 280px;
+    height: 280px;
+    background: #7533F9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-size: 130px;
+}
+
+.section-padding {
+    padding: 90px 0;
+}
+
+.info-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.skill-card,
+.project-card {
+    height: 100%;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+    transition: 0.3s;
+}
+
+.skill-card:hover,
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.skill-card i,
+.project-card i {
+    font-size: 45px;
+    color: #7533F9;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.skill-card p,
+.project-card p {
+    color: #777;
+}
+
+.social-links a {
+    font-size: 30px;
+    color: #7533F9;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #4214a8;
+}
+
+.footer {
+    background-color: #17172e;
+    color: white;
+    padding: 25px 0;
+}
+
+@media (max-width: 768px) {
+    .profile-icon {
+        width: 200px;
+        height: 200px;
+        font-size: 90px;
+    }
+}
